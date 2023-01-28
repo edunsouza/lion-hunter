@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "hono": "^2.7.3"
+  },
+  "scripts": {
+    "dev": "npx wrangler dev --local --persist-to ./.wrangler",
+    "dry": "npx wrangler publish --dry-run --minify --outdir ./build",
+    "clear": "rm -r build package-lock.json",
+    "deploy": "npx wrangler publish --minify",
+    "db:prod": "npx wrangler d1 execute stocks_db --command",
+    "db:dev": "npx wrangler d1 execute stocks_db_dev --command"
+  }
+}

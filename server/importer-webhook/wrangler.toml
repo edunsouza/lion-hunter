@@ -1,0 +1,16 @@
+name = "importer-webhook"
+main = "index.ts"
+workers_dev = true
+compatibility_date = "2023-01-25"
+
+[vars]
+#ENV_VAR_NAME = "env var value"
+
+[[ d1_databases ]]
+binding = "stocksDB"
+database_name = "stocks_db"
+database_id = "d520f908-e3d6-4ce4-a4b3-fcd831aa4106"
+preview_database_id = "0e329d79-9c6b-4eee-895e-c5c9f865bd23"
+
+[build]
+command = "npm install"
