@@ -4,7 +4,8 @@ workers_dev = true
 compatibility_date = "2023-01-25"
 
 [vars]
-#ENV_VAR_NAME = "env var value"
+ORDERS_SHEET_ID = "1t7Wm14uTmUdVHrE3_D7lamqZCc8gbwyW70M1ixhlChg"
+ORDERS_SHEET_RANGE = "stocks!A1:G1"
 
 [[ d1_databases ]]
 binding = "stocksDB"

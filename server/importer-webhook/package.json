@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "hono": "^2.7.3"
+    "hono": "^2.7.3",
+    "web-auth-library": "^0.4.1"
   },
   "scripts": {
     "dev": "npx wrangler dev --local --persist-to ./.wrangler",
