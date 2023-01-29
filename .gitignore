@@ -1,6 +1,16 @@
-node_modules/
-
 *.csv
 *.xlsx
-
 .DS_Store
+.vscode
+node_modules/
+gcp_sa.json
+
+# client
+client/dist/
+
+# server
+server/*/build/
+server/*/.wrangler/
+server/*/package-lock.json
+server/*/*.vars
+server/*/*.sqlite3
